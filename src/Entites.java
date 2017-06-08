@@ -5,6 +5,12 @@
  */
 package spaceWar;
 
+/**
+ * @brief Classe définissant une entité
+ * 
+ * @author romain
+ *
+ */
 abstract class Entites {
 	private static int uniqueId = 1;	
 	private int entId;					

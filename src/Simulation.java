@@ -40,7 +40,6 @@ public class Simulation {
 	public static void main(String[] args) {
 		// création du panneau d'affichage
 		Affichage panneau = new Affichage();
-
 		// création de la fenêtre principale contenant le panneau
 		Fenetre fenetre = new Fenetre(panneau);
 		Galaxie.getGal().genese(3, 10);
